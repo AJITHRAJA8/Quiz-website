@@ -12,4 +12,4 @@ This is a simple and interactive General Knowledge Quiz built with HTML, CSS, an
 
 🎨 Clean and responsive user interface
 
-🧠 5 general knowledge questions with multiple choices
+🧠  general knowledge questions with multiple choices
