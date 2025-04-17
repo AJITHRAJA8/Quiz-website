@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Completed</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            color:black;
+            text-align: center;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            margin: auto;
+        }
+        h2 {
+            color: #28a745;
+        }
+        p {
+            font-size: 18px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Quiz Completed</h2>
+        <p>Thank you for participating!</p>
+        <p>Your response has been recorded.</p>
+        <p id="answered"></p>
+        <p id="unanswered"></p>
+        <p id="score"></p>
+        <a href="index.html">
+            <button>Take Quiz Again</button>
+        </a>
+    </div>
+
+    <script>
+        document.getElementById("answered").innerText = `Questions answered: ${localStorage.getItem("answeredCount")}`;
+        document.getElementById("unanswered").innerText = `Questions not answered: ${localStorage.getItem("unansweredCount")}`;
+        document.getElementById("score").innerText = `Your score: ${localStorage.getItem("score")} / 6`;
+    </script>
+</body>
+</html>

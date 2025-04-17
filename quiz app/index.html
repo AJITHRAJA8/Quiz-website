@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="quiz-container">
+        <h1>General Knowledge Quiz</h1>
+        <p class="timer" id="timer">⏳ Time Left: 60s</p>
+
+        <div id="quiz-content">
+            <div class="question-card">
+                <p class="question">1️⃣ What is the capital of India?</p>
+                <div class="options">
+                    <label><input type="radio" name="q1" value="New Delhi"> New Delhi</label>
+                    <label><input type="radio" name="q1" value="Chennai"> Chennai</label>
+                    <label><input type="radio" name="q1" value="Mumbai"> Mumbai</label>
+                    <label><input type="radio" name="q1" value="Kolkata"> Kolkata</label>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <p class="question">2️⃣ What is the national animal of India?</p>
+                <div class="options">
+                    <label><input type="radio" name="q2" value="Lion"> Lion</label>
+                    <label><input type="radio" name="q2" value="Peacock"> Peacock</label>
+                    <label><input type="radio" name="q2" value="Tiger"> Tiger</label>
+                    <label><input type="radio" name="q2" value="Bear"> Bear</label>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <p class="question">3️⃣ Who is the current Prime Minister of India?</p>
+                <div class="options">
+                    <label><input type="radio" name="q3" value="Narendra Modi"> Narendra Modi</label>
+                    <label><input type="radio" name="q3" value="Rahul Gandhi"> Rahul Gandhi</label>
+                    <label><input type="radio" name="q3" value="Amit Shah"> Amit Shah</label>
+                    <label><input type="radio" name="q3" value="Arvind Kejriwal"> Arvind Kejriwal</label>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <p class="question">4️⃣ What is the square root of 144?</p>
+                <div class="options">
+                    <label><input type="radio" name="q4" value="10"> 10</label>
+                    <label><input type="radio" name="q4" value="12"> 12</label>
+                    <label><input type="radio" name="q4" value="14"> 14</label>
+                    <label><input type="radio" name="q4" value="16"> 16</label>
+                </div>
+            </div>
+
+            <div class="question-card">
+                <p class="question">5️⃣ What type of triangle has angles 90°, 45°, and 45°?</p>
+                <div class="options">
+                    <label><input type="radio" name="q5" value="Scalene"> Scalene</label>
+                    <label><input type="radio" name="q5" value="Isosceles"> Isosceles</label>
+                    <label><input type="radio" name="q5" value="Equilateral"> Equilateral</label>
+                    <label><input type="radio" name="q5" value="Right-angled"> Right-angled</label>
+                </div>
+            </div>
+        </div>
+
+        <p id="warning" style="color: red; display: none;"></p>
+
+        <button id="submitBtn">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
