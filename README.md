@@ -13,3 +13,6 @@ This is a simple and interactive General Knowledge Quiz built with HTML, CSS, an
 🎨 Clean and responsive user interface
 
 🧠  general knowledge questions with multiple choices
+
+🎥 Demo
+👉 [Click to Watch Demo Video](https://www.linkedin.com/posts/ajith-r-155832268_webdevelopment-frontenddevelopment-javascript-activity-7318676071309012992-Lryf?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEGeYVEBqZhYl2PSUSOYa5_5Vu8ZAs2lQV8)
